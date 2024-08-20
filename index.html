@@ -14,10 +14,7 @@
     <!-- Font Awesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
-<!--<body>-->
-<!---------------------------------------------------------------------------------
-       これで余白調整
-   ---------------------------------------------------------------------------------->
+
 <body class="container py-5">
 
     <!---------------------------------------------------------------------------------
@@ -36,54 +33,45 @@
             </div>
         </div>
     </nav>
+
     <!---------------------------------------------------------------------------------
            CREATIONS
     ---------------------------------------------------------------------------------->
-    <div id="clockDisplay">
-        時刻がここに表示されます
-    </div>
+    <div id="clockDisplay" style="text-align: right"></div>
 
     <!---------------------------------------------------------------------------------
-           ABOUT
-       ---------------------------------------------------------------------------------->
-    <div class="container py-5" id="about">
-        <h2>ABOUT</h2>
-        <div id="now"></div>
-        <div class="row">
-            <div class="photo">
-                <img src="img/30341584_s.jpg" />
-            </div>
-
-            <div class="col-sm col-md-auto">
-                <div class="col-sm">
-                    <p>
-                        IT業界に転職し、副業としてクラウドソーシングの案件を請け負っています。
-                        <br>2021年2月に正社員として転職。下記プログラミング作業に携わる。
-                        <div>
-                            <span class="htmlbox">HTML</span>
-                            <span class="cssbox">CSS</span>
-                            <span class="javascriptbox">JavaScript</span>
-                            <span class="cbox">C#</span>
-                        </div>
-                        2022年9月よりヘルプデスクに従事。
-                        <br>2024年8月よりシステムエンジニアへの挑戦の為、実績作りを開始。
-                    </p>
-                    <ul class="smalltext">
-                        取得資格
-                        <li>日本語ワープロ検定１級
-                        <li>情報処理技能検定１級
-                        <li>博物館学芸員
-                    </ul>
-                </div>
-            </div>
-        </div>
+        ABOUT
+    ---------------------------------------------------------------------------------->
+    <h2 class="custom-h2">ABOUT</h2>
+    <div class="photo">
+        <img src="img/30341584_s.jpg" alt="Profile Image" />
     </div>
 
+    <div class="col-sm">
+        <p>
+            IT業界に転職し、副業としてクラウドソーシングの案件を請け負っています。
+            <br>2021年2月に正社員として転職。下記プログラミング作業に携わる。
+            <div>
+                <span class="htmlbox">HTML</span>
+                <span class="cssbox">CSS</span>
+                <span class="javascriptbox">JavaScript</span>
+                <span class="cbox">C#</span>
+            </div>
+            2022年9月よりヘルプデスクに従事。
+            <br>2024年8月よりシステムエンジニアへの挑戦の為、実績作りを開始。
+        </p>
+        <ul class="smalltext">
+            取得資格
+            <li>日本語ワープロ検定１級
+            <li>情報処理技能検定１級
+            <li>博物館学芸員
+        </ul>
+    </div>
     <!---------------------------------------------------------------------------------
             DELIVERABLES
     ---------------------------------------------------------------------------------->
-    <div class="container py-4" id="deliverables">
-        <h2>DELIVERABLES</h2>
+    <div id="deliverables">
+        <h2 class="custom-h2">DELIVERABLES</h2>
         <div class="personal-work card-columns">
             <div class="work card">
                 <a href="https://docs.google.com/document/d/1Vd_1zKTOvdkP8HWoLFnuVd39CnNa8dffiwdX-e5XzE4/edit?usp=sharing">
@@ -106,8 +94,8 @@
     <!---------------------------------------------------------------------------------
         CONTACT FORM
     ---------------------------------------------------------------------------------->
-    <div class="container py-4" id="contact">
-        <h2>CONTACT</h2>
+    <div id="contact">
+        <h2 class="custom-h2">CONTACT</h2>
         <div>
             <p>メールや各クラウドソーシングにてご連絡ください。</p>
         </div>
@@ -137,27 +125,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <div style="height: 700px;"></div>
+    <script src="test.js" charset="utf-8"></script>
 </body>
-<!-- javascript -->
-<script src="test.js" charset="uft-8"></script>
 </html>
-
-<!---------------------------------------------------------------------------------
-    参考サイト
----------------------------------------------------------------------------------->
-<!--
-ポートフォリオ作成サイト
-https://ouni.jp/blog/make-portfofolio-site-3/
-
-    pretter拡張機能
-    https://zenn.dev/cordelia/articles/c5a8a68444e7d8
-    Pretter設定
-    https://ma-vericks.com/blog/vscode-prettier/
-    https://ralacode.com/blog/post/vscode-prettier/
-
-GitHubに掲載
-https://prog-8.com/docs/github-pages
-
-Javascriptを使用して時刻表示
-https://teach.web-represent.link/modifying-html-with-javascript/
-     -->

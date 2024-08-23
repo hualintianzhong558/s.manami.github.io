@@ -1,97 +1,70 @@
-/* ---------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
 
-html {
-    scroll-behavior: smooth;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
 }
 
-body {
-    line-height: 25px;
-    font-size: 0.9em;
-    font-family: "Lato", "Noto Sans JP", Helvetica, "游ゴシック", "Yu Gothic", YuGothic, HiraKakuProN-W3, "メイリオ", Meiryo, sans-serif;
+h2.custom-h2 {
+    font-size: 24px;
+    margin: 30px 0;
+    padding: 0;
+    text-align: left;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-.smalltext {
-    font-size: 0.8em;
-}
-/* ----------- h ----------------------- */
-
-h2 {
-    border-bottom: 2px solid #333;
-    color: #333;
-    font-size: 16px;
-    margin: 30px auto;
-    padding: 10px 0px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: inline-block;
+#clock_frame {
+    width: 60%;
+    font-size: 5vw;
+    transform: scale(0.5);
+    margin: 0 0 0 auto;
 }
 
-h3 {
-    border-bottom: 2px dashed #333;
-    color: #333;
-    font-size: 14px;
-    margin: 30px auto;
-    padding: 10px 0px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: inline-block;
+span#clock_date {
+    text-align: right;
+    font-size: 0.5em;
+    padding-right: 0.5em;
+    display: block;
+    float: right;
+    width: 85%;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-/*-------------------------------------------------------------------------------
-ABOUT
---------------------------------------------------------------------------------
-*/
-.htmlbox {
+span#clock_time {
+    font-size: 2em;
+    display: block;
+    float: right;
+    width: 85%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+/*https://fonts.google.com/?hl=ja*/
+
+.htmlbox, .cssbox, .javascriptbox, .cbox {
     margin: auto;
-    width: 65px;
-    height: 20px;
-    background: linear-gradient(65deg, rgba(153, 204, 255, 0.19), #1cc7f7);
-    color: darkblue
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #808080;
 }
-
-.cssbox {
-    margin: auto;
-    width: 65px;
-    height: 20px;
-    background: linear-gradient(65deg, rgba(255, 220, 255, 0.19), #ff7dff);
-    color: magenta
-}
-
-.javascriptbox {
-    margin: auto;
-    width: 65px;
-    height: 20px;
-    background: linear-gradient(65deg, rgba(153, 204, 255, 0.19), #1cc7f7);
-    color: darkblue
-}
-
-.cbox {
-    margin: auto;
-    width: 65px;
-    height: 20px;
-    background: linear-gradient(65deg, rgba(255, 220, 255, 0.19), #ff7dff);
-    color: magenta
-}
-
-/* ----------- nav ----------------------- */
 
 .navbar a.nav-link:hover {
-    color: #333;
-    border-bottom: 2px solid #333;
+    color: #f9d423;
+    border-bottom: 2px solid #f9d423;
 }
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-}
-
-/* ----------- footer ----------------------- */
 
 footer .container {
-    border-top: 2px solid rgba(144, 130, 109, 0.2);
-    color: #999;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.7);
     padding: 20px 0px;
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 50px;
     text-align: center;
 }

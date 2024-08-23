@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+
 html, body {
     height: 100%;
     margin: 0;
@@ -14,6 +16,32 @@ h2.custom-h2 {
     text-align: left;
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
+
+#clock_frame {
+    width: 60%;
+    font-size: 5vw;
+    transform: scale(0.5);
+    margin: 0 0 0 auto;
+}
+
+span#clock_date {
+    text-align: right;
+    font-size: 0.5em;
+    padding-right: 0.5em;
+    display: block;
+    float: right;
+    width: 85%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+span#clock_time {
+    font-size: 2em;
+    display: block;
+    float: right;
+    width: 85%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+/*https://fonts.google.com/?hl=ja*/
 
 .htmlbox, .cssbox, .javascriptbox, .cbox {
     margin: auto;

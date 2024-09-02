@@ -1,5 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
 
+div.typing-animation {
+    color: black;
+    font-size: 50px;
+}
+.typing-animation::after {
+    content: '';
+    border-right: 1px solid #333;
+    margin-left: 2px;
+    animation: flashing 1s linear infinite;
+    opacity: 0;
+}
+
+@keyframes flashing {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -23,7 +45,6 @@ h2.custom-h2 {
     transform: scale(0.5);
     margin: 0 0 0 auto;
 }
-
 span#clock_date {
     text-align: right;
     font-size: 0.5em;
@@ -41,7 +62,6 @@ span#clock_time {
     width: 85%;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
-/*https://fonts.google.com/?hl=ja*/
 
 .htmlbox, .cssbox, .javascriptbox, .cbox {
     margin: auto;
@@ -49,7 +69,7 @@ span#clock_time {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 5px; 
     font-weight: bold;
     color: #ffffff;
     background: #808080;

@@ -10,18 +10,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0">
     <!-- Font Awesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
 <body class="container py-5">
 
-    <!---------------------------------------------------------------------------------
-        NAVI
-    ---------------------------------------------------------------------------------->
+    <div class="typing-animation"></div>
+
     <nav class="container py-4 navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">PORTFOLIO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,69 +32,72 @@
         </div>
     </nav>
 
-    <!---------------------------------------------------------------------------------
-           CREATIONS
-    ---------------------------------------------------------------------------------->
-    <div id="clock_frame">
+      <div id="clock_frame">
         <span id="clock_date"></span>
         <span id="clock_time"></span>
     </div>
+
     <!---------------------------------------------------------------------------------
         ABOUT
     ---------------------------------------------------------------------------------->
-    <h2 class="custom-h2">ABOUT</h2>
-    <div class="photo">
-        <img src="img/30341584_s.jpg" alt="Profile Image" />
-    </div>
+        <div id="about">
+        <h2 class="custom-h2">ABOUT</h2>
+        <div class="photo">
+            <img src="img/30341584_s.jpg" alt="Profile Image" />
+        </div>
 
-    <div class="col-sm">
-        <p>
-            IT業界に転職し、副業としてクラウドソーシングの案件を請け負っています。
-            <br>2021年2月に正社員として転職。下記プログラミング作業に携わる。
-            <div>
-                <span class="htmlbox">HTML</span>
-                <span class="cssbox">CSS</span>
-                <span class="javascriptbox">JavaScript</span>
-                <span class="cbox">C#</span>
-            </div>
-            2022年9月よりヘルプデスクに従事。
-            <br>2024年8月よりシステムエンジニアへの挑戦の為、実績作りを開始。
-        </p>
-        <ul class="smalltext">
-            取得資格
-            <li>日本語ワープロ検定１級
-            <li>情報処理技能検定１級
-            <li>博物館学芸員
-        </ul>
-    </div>
+        <div class="col-sm">
+            <p>
+                IT業界に転職し、副業としてクラウドソーシングの案件を請け負っています。
+                <br>2021年2月に正社員として転職。下記プログラミング作業に携わる。
+                <div>
+                    <span class="htmlbox">HTML</span>
+                    <span class="cssbox">CSS</span>
+                    <span class="javascriptbox">JavaScript</span>
+                    <span class="cbox">C#</span>
+                </div>
+                2022年9月よりヘルプデスクに従事。
+                <br>2024年8月よりシステムエンジニアへの挑戦の為、実績作りを開始。
+            </p>
+            <ul class="smalltext">
+                取得資格
+                <li>日本語ワープロ検定１級
+                <li>情報処理技能検定１級
+                <li>博物館学芸員
+            </ul>
+        </div>
+
     <!---------------------------------------------------------------------------------
             DELIVERABLES
     ---------------------------------------------------------------------------------->
-    <div class="card-deck" style="width: 30rem;">
-        <div class="card">
-            <a href="https://docs.google.com/document/d/1Vd_1zKTOvdkP8HWoLFnuVd39CnNa8dffiwdX-e5XzE4/edit?usp=sharing">
-                <img src="img/26934357_s.jpg" alt="カードの画像" class="card-img-top">
-            </a>
-            <div class="card-body">
-                <h4 class="card-title">WEBライター</h4>
-                <p>WEBライターに関する記事を作成いたしました。</p>
+        <div id="deliverables">
+            <h2 class="custom-h2">DELIVERABLES</h2>
+            <div class="card-deck" style="width: 30rem;">
+                <div class="card">
+                    <a href="https://docs.google.com/document/d/1Vd_1zKTOvdkP8HWoLFnuVd39CnNa8dffiwdX-e5XzE4/edit?usp=sharing">
+                        <img src="img/26934357_s.jpg" alt="カードの画像" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">WEBライター</h4>
+                        <p>WEBライターに関する記事を作成いたしました。</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://docs.google.com/document/d/1WopQBbkfpdRvDXdPoI4_VkQhdbPCmrcU8zHz_kmPI-8/edit?usp=sharing">
+                        <img src="img/30359664_s.jpg" alt="カードの画像" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">転職活動</h4>
+
+                        <p>転職活動に関する記事を作成いたしました。</p>
+
+                    </div>
+                </div>
             </div>
+
         </div>
 
-        <div class="card">
-            <a href="https://docs.google.com/document/d/1WopQBbkfpdRvDXdPoI4_VkQhdbPCmrcU8zHz_kmPI-8/edit?usp=sharing">
-                <img src="img/30359664_s.jpg" alt="カードの画像" class="card-img-top">
-            </a>
-            <div class="card-body">
-                <h4 class="card-title">転職活動</h4>
-
-                <p>転職活動に関する記事を作成いたしました。</p>
-
-            </div>
-        </div>
-
-    </div>
-    <!--</div>-->
     <!---------------------------------------------------------------------------------
         CONTACT FORM
     ---------------------------------------------------------------------------------->
@@ -130,8 +131,7 @@
     ---------------------------------------------------------------------------------->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <div style="height: 700px;"></div>
-    <script src="test.js" charset="utf-8"></script>
+    <script src="/js/test.js" charset="utf-8"></script>
 </body>
 </html>

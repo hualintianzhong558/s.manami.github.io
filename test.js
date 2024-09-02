@@ -1,5 +1,14 @@
 console.log('javascript is working');
 
+const typing = (el, sentence) => {
+    [...sentence].forEach((char, index) => {
+        setTimeout(() => {
+            document.querySelector(el).textContent += char;
+        }, 100 * ++index);
+    });
+}
+
+typing('.typing-animation', 'PORTFOLIO');
 function updateBackground() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     const docHeight = document.documentElement.scrollHeight - window.innerHeight;
